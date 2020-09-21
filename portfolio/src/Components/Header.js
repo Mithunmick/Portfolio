@@ -9,6 +9,7 @@ import {
     Box,
 } from '@material-ui/core';
 import avatar from "../Components/IMG/Avater.png";
+import { HoverMode } from 'react-particles-js';
 
 
 // CSS styles
@@ -17,9 +18,7 @@ const useStyles = makeStyles(theme=> ({
         width: theme.spacing(20),
         height: theme.spacing(30),
         margin: theme.spacing(1),
-        
-        zIndex: "-1"
-
+        zIndex: "-1",
     },
     title: {
         color: "tomato"
