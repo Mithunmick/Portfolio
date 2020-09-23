@@ -9,7 +9,7 @@ import {
     Box,
 } from '@material-ui/core';
 import avatar from "../Components/IMG/Avater.png";
-import { HoverMode } from 'react-particles-js';
+
 
 
 // CSS styles
@@ -55,7 +55,7 @@ const Header = () => {
             <br/>
             <Typography className={classes.subtitle} variant="h5" >
                 <Typed
-                    strings={["Web Design", "Web Development","Full Stack"]}
+                    strings={["Web Design", "Web Development","Networking","CyberSecurity"]}
                     TypeSpeed={40}
                     backSpeed={60}
                     loop
